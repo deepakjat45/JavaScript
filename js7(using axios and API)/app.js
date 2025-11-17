@@ -33,6 +33,7 @@
 //     }
 // }
 
+
 // let button2 = document.querySelector("#button2");
 // let url2 = "https://dog.ceo/api/breeds/image/random";
 
@@ -54,6 +55,7 @@
 //     }
 // }
 
+
 // //sending headers with api request
 // const url = "https://icanhazdadjoke.com/";
 
@@ -66,6 +68,7 @@
 //         console.log("Error : ", e);
 //     }
 // }
+
 
 
 //activity
