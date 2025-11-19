@@ -159,32 +159,33 @@
 
 
 
-// // more event
-// //chang event and input event  // work only on input, textarea and select
-// let form = document.querySelector("form");
-// form.addEventListener("submit", function(event) {
-//     event.preventDefault();
-// });
-
-// let user = document.querySelector("#user");
-
-// user.addEventListener("change", function(){  // video me samjaya he 
-//     console.log("change evnet value changed");
-//     console.log("change event value is = ", this.value);
-// });
-// user.addEventListener("input", function(){ // video me samjaya he 
-//     console.log("input value changed");
-//     console.log("input value is = ", this.value);
-// });
-
-
-// //activity 
-let input = document.querySelector("#text");
-let p = document.querySelector("p");
-
-input.addEventListener("input", function(){
-    console.log(input.value);
-    p.innerText = input.value;
+// more event
+//chang event and input event  // work only on input, textarea and select
+let form = document.querySelector("form");
+form.addEventListener("submit", function(event) {
+    event.preventDefault();
 });
+
+let user = document.querySelector("#user");
+
+user.addEventListener("change", function(){  // video me samjaya he 
+    console.log("change evnet value changed");
+    console.log("change event value is = ", this.value);
+});
+user.addEventListener("input", function(){ // video me samjaya he 
+    console.log("input value changed");
+    console.log("input value is = ", this.value);
+});
+
+
+// // //activity 
+// let input = document.querySelector("#text");
+// let p = document.querySelector("p");
+
+// input.addEventListener("input", function(){
+//     console.log(input.value);
+//     p.innerText = input.value;
+// });
+
 
 // assignment questions
