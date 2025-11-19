@@ -80,7 +80,9 @@
     // num = Math.floor(num);
     // num += 1;
     // console.log(num);
-    // let random = Math.floor(Math.random() * 10) + 1; //short 
+
+    // shorthand 
+    // let random = Math.floor(Math.random() * 10) + 1;
     // console.log(random);
 
     // //random number from 1 to 100

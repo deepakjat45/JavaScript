@@ -4,11 +4,14 @@
 //     console.log('hello');   
 // } 
 
+// //call function
+// hello();
+
 // function pirntName(){
 //     console.log('raj');
 //     console.log('priya');
 //     console.log('deepak');
-//     console.log('class');
+//     console.log('kalu');
 //     console.log('rahul');
 // }
 
@@ -17,8 +20,7 @@
 //         console.log(i);
 //     }
 // }
-// //call function
-// hello();
+
 // pirntName();
 // print1to5();
 
