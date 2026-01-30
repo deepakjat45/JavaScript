@@ -61,7 +61,7 @@
     // console.log(infoClass[0].marks);
 }
 
-//Math Object
+// **Math Object
 {
     // Math.PI;
     // Math.E;
@@ -74,14 +74,14 @@
     // console.log(Math.random()); // make random value from 0 to 1 but not 1
 
 
-    // //* making random inntegers // random number 
+    // //**making random inntegers // random number 
     // let num = Math.random();
     // num *= 10
     // num = Math.floor(num);
     // num += 1;
     // console.log(num);
 
-    // shorthand 
+    // // short hand 
     // let random = Math.floor(Math.random() * 10) + 1;
     // console.log(random);
 
@@ -91,24 +91,24 @@
     // let ranNum2 = Math.floor(Math.random() * 10) + 21; //num from 21 to 30
 }
 
-//** 
-//guessing the number game
 
-const maxNum = prompt("enter max num");
-const num = Math.floor(Math.random() * maxNum) + 1;
-let guessNum = prompt("guess the num");
+// //guessing the number game
 
-while (true) {
-    if (guessNum == "quit") {
-        console.log("user quit");
-        break;
-    }
-    if (guessNum == num) {
-        console.log("you are right");
-        break;
-    } else if (guessNum < num) {
-        guessNum = prompt('your guess was to low guess something high');
-    } else if (guessNum > num) {
-        guessNum = prompt('guess is high guess something low');
-    }
-}
+// const maxNum = prompt("enter max num");
+// const num = Math.floor(Math.random() * maxNum) + 1;
+// let guessNum = prompt("guess the num");
+
+// while (true) {
+//     if (guessNum == "quit") {
+//         console.log("user quit");
+//         break;
+//     }
+//     if (guessNum == num) {
+//         console.log("you are right");
+//         break;
+//     } else if (guessNum < num) {
+//         guessNum = prompt('your guess was to low guess something high');
+//     } else if (guessNum > num) {
+//         guessNum = prompt('guess is high guess something low');
+//     }
+// }

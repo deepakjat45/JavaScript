@@ -2,64 +2,64 @@
 
 //for loop
 {
-// for(let i=1; i<=15; i++){
-//     console.log(i);
-// }
+    // for(let i=1; i<=15; i++){
+    //     console.log(i);
+    // }
 
-// for(let i=1; i<=15; i=i+2){
-//     console.log(i);
-// }
+    // for(let i=1; i<=15; i=i+2){
+    //     console.log(i);
+    // }
 
-// for(let i=2; i<=15; i=i+2){
-//     console.log(i);n
-// }
-
-
-// infinit loop, 
-// for(let i=1; i>=0; i++){   //don't run this code 
-//     console.log(i);
-// }
+    // for(let i=2; i<=15; i=i+2){
+    //     console.log(i);n
+    // }
 
 
+    // // infinit loop, 
+    // for(let i=1; i>=0; i++){   //don't run this code 
+    //     console.log(i);
+    // }
 
-// let n = prompt('enter you number');
-// n = parseInt(n);
-// for(let i=n; i<=n*10; i=i+n){
-//     console.log(i);
-// }
 
-// for(let i=1; i<=3; i++){
-//     for(let j=1; j<=3; j++){
-//     console.log(j);
-//     }   
-// }
+    // // Multipucation table 
+    // let n = prompt('enter you number');
+    // n = parseInt(n);
+    // for(let i=n; i<=n*10; i=i+n){
+    //     console.log(i);
+    // }
+
+    // for(let i=1; i<=3; i++){
+    //     for(let j=1; j<=3; j++){
+    //     console.log(j);
+    //     }   
+    // }
 }
 
 
 // while loop
 {
-// let i = 4;
-// while(i<=20){
-//     console.log(i);
-//     i++;
-// }
+    // let i = 4;
+    // while(i<=20){
+    //     console.log(i);
+    //     i++;
+    // }
 
 
-// let movie = 'Avator';
-// let guess = prompt('which is my faverite movie');
-// while(guess != movie){
-//     if(guess == 'quit'){
-//         console.log('you quit');
-//         break;
-//     }
-//     guess = prompt('worng, enter again');
-// }
+    // let movie = 'Avator';
+    // let guess = prompt('which is my faverite movie');
+    // while(guess != movie){
+    //     if(guess == 'quit'){
+    //         console.log('you quit');
+    //         break;
+    //     }
+    //     guess = prompt('worng, enter again');
+    // }
 
 }
 
 
 
-//loops with array 
+//loops with array
 
 // let fruits = ['apple', 'mango', 'banana', 'lichi', 'orange', 'papaya'];
 // for(let i=0; i<fruits.length; i++){
@@ -113,7 +113,7 @@
 
 
 
-// practise questions 
+// practise questions
 
 // let a =[1,2,8,6,4,6,3,1,6];
 // let num = 6;
@@ -125,18 +125,19 @@
 // console.log(a);
 
 
-let n = 11;
-let fac = 1;
-for(let i=1; i<=n; i++){
-    fac *= i;
-}
-console.log(fac);
 
-let a = [2,2,5,8,6,4,2,];
-let lar=0;
-for(let i=0; i<=a.length; i++){
-    if(lar < a[i]){
-        lar = a[i];
-    }
-}
-console.log(lar);
+// let n = 7;
+// let fac = 1;
+// for(let i=1; i<=n; i++){
+//     fac *= i;
+// }
+// console.log(fac);
+
+// let a = [2,2,5,8,6,4,2];
+// let lar = 0;
+// for(let i=0; i<=a.length; i++){
+//     if(lar < a[i]){
+//         lar = a[i];
+//     }
+// }
+// console.log(lar);

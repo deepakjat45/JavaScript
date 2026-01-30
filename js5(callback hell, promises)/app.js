@@ -14,9 +14,7 @@
 //     console.log(ans);  //3
 // }
 
-// three(); 
-
-
+// three();
 
 // // Callback Hell
 // let h1 = document.querySelector('h1');
@@ -36,7 +34,6 @@
 //     });
 // });
 
-
 // //callback hell example:-
 
 // function savetoDb(Data, success, failure) {
@@ -47,7 +44,6 @@
 //         failure();
 //     }
 // }
-
 
 // savetoDb("apna collage", () => {
 //     console.log("success1 your data saved");
@@ -65,9 +61,8 @@
 //     console.log("failure1: network error");
 // });
 
-
-
 // Promises   <--(an object)
+// Promise ek object hot he jisake andar resolve and reject do function hote he
 //ex--->
 // function savetoDb(Data) {
 //   return new Promise((resolve, reject) => {
@@ -79,6 +74,9 @@
 //     }
 //   });
 // }
+
+// promises object ke andar do method hote he promises.then and promises.catch
+// promises return hone ke bad kay karna he ye .then me likhe or error aane par .catch me likhe
 
 // let request = savetoDb("hello"); // request = promises object
 // request
@@ -101,7 +99,6 @@
 //     console.log("promises was rejected");
 //   });
 
-
 // savetoDb("apna collage")
 //   .then(() => {
 //     console.log("data1 saved");
@@ -117,7 +114,6 @@
 //   .catch(() => {
 //     console.log("promises was rejected");
 //   });
-
 
 // savetoDb("apna collage")
 //   .then((result) => {
@@ -138,3 +134,9 @@
 //     console.log("promises was rejected");
 //     console.log("error of promises:", error);
 //   });
+
+
+//Q
+Promise.resolve(5)
+  .then((x) => x * 2)
+  .then((x) => console.log(x));

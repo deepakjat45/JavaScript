@@ -1,8 +1,8 @@
-// async function 
+// // async function 
 
 // // async keyword
 // async function greet() {
-//     // throw "some random error";  // we use throw to throw an error
+//     throw "some random error";  // we use throw to throw an error
 //     return "hello";
 // } 
 
@@ -37,6 +37,7 @@
 //     await getNum();
 // }
 
+
 // //ex.-->
 // let h1 = document.querySelector("h1");
 
@@ -53,7 +54,7 @@
 //     await changeColor("red", 1000);
 //     await changeColor("blue", 1000);
 //     await changeColor("green", 1000);
-//     changeColor("orange", 1000);    
+//     changeColor("yellow", 1000);    
 // }
 
 
@@ -91,7 +92,9 @@
 // }
 //--------------------------------------------------------------------
 
+
 // API
+
 //what is API 
 // what is JSON
 
@@ -115,11 +118,12 @@
 
 // fetch(url)
 //     .then((res) => {
-//         console.log(res);
+//         // console.log(res);
 //         return res.json();
 //     })
 //     .then((Data)=>{
 //         console.log(Data.fact);
+//         console.log(Data.length);
 //     })
 //     .catch((err) => {
 //         console.log("ERROR = " + err);
@@ -136,9 +140,11 @@ async function getFact() {
         console.log(data.fact);
 
         let res2 = await fetch(url);
-        let data2 = await res.json();
-        console.log(data.fact);
+        let data2 = await res2.json();
+        console.log(data2.fact);
     }catch(e){
         console.log("Error - " + e);
     }
 }
+
+getFact();
