@@ -18,7 +18,8 @@
 
 
 
-// //try and catch // ji code me error aa sakata he use try and catch me dalate he
+// //try and catch 
+// // jis code me error aa sakata he use try and catch me dalate he
 
 // console.log("hello");
 // console.log("hello");

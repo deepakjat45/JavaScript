@@ -60,7 +60,7 @@
     //     let red = Math.floor(Math.random() * 255);
     //     let green = Math.floor(Math.random() * 255);
     //     let blue = Math.floor(Math.random() * 255);
-        
+
     //     let color = `rgb(${red}, ${green}, ${blue})`;
     //     return color;
     // }
@@ -111,7 +111,7 @@
 // btn.addEventListener("click", function(event){  //by default event argument aata he video me samjaya he 
 //     console.log(event); //pointer event 
 // });
- 
+
 // let inp = document.querySelector("input");
 // inp.addEventListener("keydown", function(e){
 //     console.log(e); // keybord event
@@ -137,7 +137,7 @@
 // let form = document.querySelector("form");
 // form.addEventListener("submit", (event) => {
 //     event.preventDefault();  
-    
+
 //     let inp = document.querySelector("#user");
 //     console.log(inp.value);
 //     let pass = document.querySelector("#pass");
@@ -149,7 +149,7 @@
 // form.addEventListener("submit", function(event) {
 //     event.preventDefault();  
 //     console.dir(form);
-    
+
 //     let inp = this.elements[0]; // or form.elements[0]    // simple way
 //     let pass = this.elements[1]; // or form.elements[1]
 
@@ -159,33 +159,33 @@
 
 
 
-// more event
-//chang event and input event  // work only on input, textarea and select
-let form = document.querySelector("form");
-form.addEventListener("submit", function(event) {
-    event.preventDefault();
-});
-
-let user = document.querySelector("#user");
-
-user.addEventListener("change", function(){  // video me samjaya he 
-    console.log("change evnet value changed");
-    console.log("change event value is = ", this.value);
-});
-user.addEventListener("input", function(){ // video me samjaya he 
-    console.log("input value changed");
-    console.log("input value is = ", this.value);
-});
-
-
-// // //activity 
-// let input = document.querySelector("#text");
-// let p = document.querySelector("p");
-
-// input.addEventListener("input", function(){
-//     console.log(input.value);
-//     p.innerText = input.value;
+// // more event
+// //chang event and input event  // work only on input, textarea and select
+// let form = document.querySelector("form");
+// form.addEventListener("submit", function (event) {
+//     event.preventDefault();
 // });
+
+// let user = document.querySelector("#user");
+
+// user.addEventListener("change", function () {  // video me samjaya he 
+//     console.log("change evnet value changed");
+//     console.log("change event value is = ", this.value);
+// });
+// user.addEventListener("input", function () { // video me samjaya he 
+//     console.log("input value changed");
+//     console.log("input value is = ", this.value);
+// });
+
+
+// //activity
+let input = document.querySelector("#text");
+let p = document.querySelector("p");
+
+input.addEventListener("input", function(){
+    console.log(input.value);
+    p.innerText = input.value;
+});
 
 
 // assignment questions

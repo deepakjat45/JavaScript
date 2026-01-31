@@ -51,31 +51,3 @@ ul.addEventListener("click", function(event){
         lisItm.remove();
     }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-// fun 
-// if(true){
-//     if(true){
-//         if(true){
-//             if(true){
-//                 if(true){
-//                     if(true){
-//                         if(true){
-//                             console.log("deepak");
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }        

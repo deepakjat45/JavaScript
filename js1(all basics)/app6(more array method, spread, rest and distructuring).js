@@ -1,6 +1,6 @@
 // more array Methoed
 
-//forEach //for off loop ki tarha hota he 
+//forEach //for off loop ki tarha hota he
 //map
 //filter
 //every
@@ -81,7 +81,7 @@
 // let { user, pass } = student;
 // console.log(user, pass);
 
-// // or 
+// // or
 // let { user: username, pass: password } = student;
 // console.log(username, password);
 

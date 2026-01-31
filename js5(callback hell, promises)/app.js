@@ -61,9 +61,9 @@
 //     console.log("failure1: network error");
 // });
 
-// Promises   <--(an object)
-// Promise ek object hot he jisake andar resolve and reject do function hote he
-//ex--->
+// // Promises   <--(an object)
+// // Promise ek object hot he jisake andar resolve and reject do function hote he
+// //ex--->
 // function savetoDb(Data) {
 //   return new Promise((resolve, reject) => {
 //     let internetSpeed = Math.floor(Math.random() * 10) + 1;
@@ -136,7 +136,7 @@
 //   });
 
 
-//Q
-Promise.resolve(5)
-  .then((x) => x * 2)
-  .then((x) => console.log(x));
+// //Q
+// Promise.resolve(5)
+//   .then((x) => x * 2)
+//   .then((x) => console.log(x));
