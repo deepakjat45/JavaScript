@@ -34,32 +34,32 @@
 //     });
 // });
 
-// //callback hell example:-
+//callback hell example:-
 
-// function savetoDb(Data, success, failure) {
-//     let internetSpeed = Math.floor(Math.random() * 10) + 1;
-//     if (internetSpeed > 4) {
-//         success();
-//     } else {
-//         failure();
-//     }
-// }
+function savetoDb(Data, success, failure) {
+    let internetSpeed = Math.floor(Math.random() * 10) + 1;
+    if (internetSpeed > 4) {
+        success();
+    } else {
+        failure();
+    }
+}
 
-// savetoDb("apna collage", () => {
-//     console.log("success1 your data saved");
-//     savetoDb("hello world", () => {
-//         console.log("success2 data2 saved");
-//         savetoDb("deepak", () => {
-//             console.log("success3 data3 saved");
-//         }, () => {
-//             console.log("failure3: network error");
-//         });
-//     }, () => {
-//         console.log("failure2: network error");
-//     });
-// }, () => {
-//     console.log("failure1: network error");
-// });
+savetoDb("apna collage", () => {
+    console.log("success1 your data saved");
+    savetoDb("hello world", () => {
+        console.log("success2 data2 saved");
+        savetoDb("deepak", () => {
+            console.log("success3 data3 saved");
+        }, () => {
+            console.log("failure3: network error");
+        });
+    }, () => {
+        console.log("failure2: network error");
+    });
+}, () => {
+    console.log("failure1: network error");
+});
 
 // // Promises   <--(an object)
 // // Promise ek object hot he jisake andar resolve and reject do function hote he
