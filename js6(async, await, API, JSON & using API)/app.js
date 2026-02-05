@@ -93,35 +93,36 @@
 //--------------------------------------------------------------------
 
 
-// API
+// // API
 
-//what is API 
-// what is JSON
+// //what is API
+// // what is JSON
 
-// Accissing JSON Data
-// let jsonRes = '{"fact":"A cats appetite is the barometer of its health. Any cat that does not eat or drink for more than two days should be taken to a vet.","length":132}'
+// // Accissing JSON Data
+// let json_Response = '{"fact":"A cats appetite is the barometer of its health. Any cat that does not eat or drink for more than two days should be taken to a vet.","length":132}'
 
-// let validRes = JSON.parse(jsonRes);
-// console.log(validRes.length);
+// let Data = JSON.parse(json_Response);
+// console.log(Data.fact); 
 
 
 //API testing tools
-// what is Ajax 
-//Http verbs 
-// States code  
-// add info to api url
-// http headers 
+// what is Ajax
+//Http verbs
+// States code
+
+// **add info to api url 
+// http headers
 
 
-// // our first Api request 
+// // our first Api request
 // let url = "https://catfact.ninja/fact";
 
 // fetch(url)
-//     .then((res) => {
+//     .then((res) => { 
 //         // console.log(res);
 //         return res.json();
 //     })
-//     .then((Data)=>{
+//     .then((Data)=>{  //res.json() ki value Data me store ho gayi 
 //         console.log(Data.fact);
 //         console.log(Data.length);
 //     })
@@ -131,15 +132,15 @@
 
 
 // // first api fetch using async and await
-// let url = "https://catfact.ninja/fact";
+// let url2 = "https://catfact.ninja/fact";
 
 // async function getFact() {
 //     try {
-//         let res = await fetch(url);
+//         let res = await fetch(url2);
 //         let data = await res.json();
 //         console.log(data.fact);
 
-//         let res2 = await fetch(url);
+//         let res2 = await fetch(url2);
 //         let data2 = await res2.json();
 //         console.log(data2.fact);
 //     } catch (e) {
@@ -147,4 +148,4 @@
 //     }
 // }
 
-// getFact();
+// getFact();  
