@@ -69,7 +69,7 @@
 //     }
 // }
 
-
+ 
 
 //activity
 //get colleges by country name
