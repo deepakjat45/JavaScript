@@ -1,4 +1,4 @@
-// call stack
+// // call stack
 
 // // visualizing call stack
 // function one(){
@@ -15,6 +15,7 @@
 // }
 
 // three();
+
 
 // // Callback Hell
 // let h1 = document.querySelector('h1');
@@ -34,49 +35,53 @@
 //     });
 // });
 
-//callback hell example:-
 
-function savetoDb(Data, success, failure) {
-    let internetSpeed = Math.floor(Math.random() * 10) + 1;
-    if (internetSpeed > 4) {
-        success();
-    } else {
-        failure();
-    }
-}
+// //callback hell example:-
 
-savetoDb("apna collage", () => {
-    console.log("success1 your data saved");
-    savetoDb("hello world", () => {
-        console.log("success2 data2 saved");
-        savetoDb("deepak", () => {
-            console.log("success3 data3 saved");
-        }, () => {
-            console.log("failure3: network error");
-        });
-    }, () => {
-        console.log("failure2: network error");
-    });
-}, () => {
-    console.log("failure1: network error");
-});
-
-// // Promises   <--(an object)
-// // Promise ek object hot he jisake andar resolve and reject do function hote he
-// //ex--->
-// function savetoDb(Data) {
-//   return new Promise((resolve, reject) => {
+// function savetoDb(Data, success, failure) {
 //     let internetSpeed = Math.floor(Math.random() * 10) + 1;
 //     if (internetSpeed > 4) {
-//       resolve("success: data saved");
+//         success();
 //     } else {
-//       reject("failure : weak connction");
+//         failure();
 //     }
-//   });
 // }
 
+// savetoDb("apna collage", () => {
+//     console.log("success1 data1 saved");
+//     savetoDb("apna collage 2", () => {
+//         console.log("success2 data2 saved");
+//         savetoDb("apna collage 3", () => {
+//             console.log("success3 data3 saved");
+//         }, () => {
+//             console.log("failure3: network error");
+//         });
+//     }, () => {
+//         console.log("failure2: network error");
+//     });
+// }, () => {
+//     console.log("failure1: network error");
+// });
+
+
+// Promises   <--(an object)
+// Promise ek object hot he jisake andar resolve and reject do function hote he
+//ex--->
+function savetoDb(Data) { // savetoDb fun. jo data leta he 
+  return new Promise((resolve, reject) => { // new promise jo ya to resolve hoga ya reject hoga 
+    let internetSpeed = Math.floor(Math.random() * 10) + 1;
+    if (internetSpeed > 4) {
+      resolve("success: data saved"); // resolve ko call jayega 
+    } else {
+      reject("failure : weak connction"); // reject ko call jayega 
+    }
+  });
+}
+
+
 // promises object ke andar do method hote he promises.then and promises.catch
-// promises return hone ke bad kay karna he ye .then me likhe or error aane par .catch me likhe
+// promis resolve hone ke bad .then wala kam hoga or reject hone ke bad .catch wala kam hoga 
+// promises return hone ke bad kay karna he ye .then me likhana hoga or error aane par .catch me likahna hoga 
 
 // let request = savetoDb("hello"); // request = promises object
 // request
@@ -99,6 +104,8 @@ savetoDb("apna collage", () => {
 //     console.log("promises was rejected");
 //   });
 
+
+// // multiple .then use kar sakate he 
 // savetoDb("apna collage")
 //   .then(() => {
 //     console.log("data1 saved");
@@ -136,7 +143,8 @@ savetoDb("apna collage", () => {
 //   });
 
 
-// //Q
-// Promise.resolve(5)
-//   .then((x) => x * 2)
-//   .then((x) => console.log(x));
+// .then() also give a new promise to the next .then()
+//Q
+Promise.resolve(5) 
+  .then((x) => x * 2)  //x value became 5 // after the Operation .then give new promise with x value 10  
+  .then((x) => console.log(x)); 

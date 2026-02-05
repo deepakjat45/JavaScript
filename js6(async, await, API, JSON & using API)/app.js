@@ -2,16 +2,16 @@
 
 // // async keyword
 // async function greet() {
-//     throw "some random error";  // we use throw to throw an error
+//     // throw "some random error";  // we use to throw an error
 //     return "hello";
-// } 
+// }
 
 // greet()
-//     .then((result)=>{
+//     .then((result) => {
 //         console.log("promise was resolved");
 //         console.log("result was : ", result);
 //     })
-//     .catch((err)=>{
+//     .catch((err) => {
 //         console.log("promise was reject with error :", err);
 //     });
 
@@ -29,7 +29,7 @@
 
 // async function demo() {
 //     getNum();
-//     await getNum(); // ek kam hene par dusara suru hoga
+//     await getNum(); // ek kam hone par dusara suru hoga
 //     await getNum(); // await keyword ki vajahe se hi hum async function use karte he 
 //     await getNum();
 //     await getNum();
@@ -130,21 +130,21 @@
 //     });
 
 
-// first api fetch using async and await
-let url = "https://catfact.ninja/fact";
+// // first api fetch using async and await
+// let url = "https://catfact.ninja/fact";
 
-async function getFact() {
-    try{
-        let res = await fetch(url);
-        let data = await res.json();
-        console.log(data.fact);
+// async function getFact() {
+//     try {
+//         let res = await fetch(url);
+//         let data = await res.json();
+//         console.log(data.fact);
 
-        let res2 = await fetch(url);
-        let data2 = await res2.json();
-        console.log(data2.fact);
-    }catch(e){
-        console.log("Error - " + e);
-    }
-}
+//         let res2 = await fetch(url);
+//         let data2 = await res2.json();
+//         console.log(data2.fact);
+//     } catch (e) {
+//         console.log("Error - " + e);
+//     }
+// }
 
-getFact();
+// getFact();
