@@ -148,3 +148,4 @@ function savetoDb(Data) { // savetoDb fun. jo data leta he
 Promise.resolve(5) 
   .then((x) => x * 2)  //x value became 5 // after the Operation .then give new promise with x value 10  
   .then((x) => console.log(x)); 
+ 

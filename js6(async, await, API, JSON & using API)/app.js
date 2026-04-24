@@ -30,12 +30,13 @@
 // async function demo() {
 //     getNum();
 //     await getNum(); // ek kam hone par dusara suru hoga
-//     await getNum(); // await keyword ki vajahe se hi hum async function use karte he 
+//     await getNum();  
 //     await getNum();
 //     await getNum();
 //     await getNum();
 //     await getNum();
 // }
+// await keyword ki vajahe se hi hum async function use karte he
 
 
 // //ex.-->
