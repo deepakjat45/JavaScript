@@ -1,4 +1,4 @@
-{// String Methods 
+// String Methods 
 
     // let string = "  hello my friends my name is deepak jat "   ;
 
@@ -21,8 +21,8 @@
 
     // console.log(string.repeat(3));
 
-    //string are immutable in js 
-}
+    // string are immutable in js   yani original string me koi badalav nahi aayega 
+
 
 
 // // Array [data sturcture]
@@ -32,15 +32,16 @@
 // console.log(student[2]);
 // console.log(student[2][0]);
 
-// let data = ["aman", 56, 5.4];
+// let data = ["aman", 56, 5.4]; //we can have diff type of values 
 
 // let a = [3,4,6,0];
 // a[10] = 12;
-// console.log(a);
+// console.log(a); // empty spaces between intxes
 
 
-// { //Array Methods
-let cars = ["bmw", "auidi", "suzuki", "xuv", "RR"];
+// //Array Methods:- 
+
+// let cars = ["bmw", "auidi", "suzuki", "xuv", "RR"];
 // cars.push("kiya");
 // console.log(cars);
 
@@ -54,22 +55,21 @@ let cars = ["bmw", "auidi", "suzuki", "xuv", "RR"];
 
 // console.log(cars.indexOf('suzuki')); //2
 
-// cars.includes('auidi');
 // console.log(cars.includes('auidi')); //true
 // console.log(cars.includes('lambo')); //false
 
-// student.concat(cars);
-// console.log(student.concat(cars));
+
+// console.log(student.concat(cars)); //adding two arrays
 
 // cars.reverse();
 // console.log(cars); 
 
 // console.log(cars.slice(2)); //slice dont change original array
 // console.log(cars.slice(1,3));
-// console.log(cars.slice(-2));
+// console.log(cars.slice(-2), "hello");
 
 
-// cars.splice(3); 
+// cars.splice(3);  // splice changes the original array 
 // console.log(cars); 
 // cars.splice(0, 1); // aage or piche wale index
 // console.log(cars); 
@@ -89,9 +89,9 @@ let cars = ["bmw", "auidi", "suzuki", "xuv", "RR"];
 // let array = [ [2,2,3], [3,3,2], [5,5,3] ];
 // console.log(array[0][1]);
 
-// }
 
-{ // Questions
+
+ // Questions
 
     // let n = 2;
     // let array = [3,4,2,8,4];
@@ -122,4 +122,4 @@ let cars = ["bmw", "auidi", "suzuki", "xuv", "RR"];
     //     console.log('yes');
     // }
 
-}
+
