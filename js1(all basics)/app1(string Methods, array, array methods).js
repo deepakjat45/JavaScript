@@ -120,6 +120,8 @@
     // let a = [2,3,5,8,6,9];
     // if(a.includes(0) === true){
     //     console.log('yes');
+    // }else{
+    //     console.log("no"); 
     // }
 
 
