@@ -20,8 +20,6 @@
     // //update value
     // post.liks = 125;
     // console.log(post.liks);
-    // post['liks'] = 150;
-    // console.log(post.liks);
 
     // //add value
     // post.username = 'raj';
