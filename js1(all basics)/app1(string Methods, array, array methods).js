@@ -21,7 +21,7 @@
 
     // console.log(string.repeat(3));
 
-    // string are immutable in js   yani original string me koi badalav nahi aayega 
+    // string are immutable in js.   yani original string me koi badalav nahi aayega 
 
 
 
@@ -93,35 +93,34 @@
 
  // Questions
 
-    // let n = 2;
-    // let array = [3,4,2,8,4];
-    // console.log(array.slice(0, n+1));
+    let n = 2;
+    let array = [3,4,2,8,4];
+    console.log(array.slice(0, n+1));
 
 
-    // let n2 = 4;
-    // let array2 = [0,-1,3,8,2,8,4];
-    // console.log(array.slice(-n2));
+    let n2 = 4;
+    let array2 = [0,-1,3,8,2,8,4];
+    console.log(array2.slice(-n2));
 
-    // let str = prompt('hello my friend');
+    // let str = ('hello my friend');
     // if(str.length === 0){
     //     console.log('str is empty');
     // }else{
     //     console.log('str is not empty');
     // }
 
-    // let string = 'helloMyfriend';
-    // let idx = 3;
-    // if (string[idx] === string[idx].toLowerCase()){
-    //     console.log('string is lowercase');
-    // }else{
-    //     console.log('string is upper case');
-    // }
+    let string = 'helloMyfriend';
+    let idx = 3;
+    if (string[idx] === string[idx].toLowerCase()){
+        console.log('string is lowercase');
+    }else{
+        console.log('string is upper case');
+    }
 
-    // let a = [2,3,5,8,6,9];
-    // if(a.includes(0) === true){
-    //     console.log('yes');
-    // }else{
-    //     console.log("no"); 
-    // }
-
-
+    let a = [2,3,5,8,6,9];
+    if(a.includes(0) === true){
+        console.log('yes');
+    }else{
+        console.log("no"); 
+    }
+;

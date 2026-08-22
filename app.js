@@ -34,3 +34,12 @@ async function getCatFact() {
 }
 
 getCatFact();
+
+
+// let a = prompt("enter some number");
+
+// if (a%5 == 0) {
+//   console.log("a is multiple of 5");
+// }else{
+//   console.log("a is not mulutple of 5");
+// }

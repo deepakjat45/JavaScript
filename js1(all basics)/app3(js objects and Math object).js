@@ -61,8 +61,8 @@
 
 // **Math Object
 {
-    // Math.PI;
-    // Math.E;
+    // console.log(Math.PI);
+    // console.log(Math.E);
 
     // //method
     // console.log(Math.abs(-12)); //abslute value
@@ -87,7 +87,9 @@
     // let ranNum = Math.floor(Math.random() * 100) + 1;
     // console.log(ranNum);
     // let ranNum2 = Math.floor(Math.random() * 10) + 21; //num from 21 to 30
+    // console.log(ranNum2);
 }
+
 
 
 // //guessing the number game

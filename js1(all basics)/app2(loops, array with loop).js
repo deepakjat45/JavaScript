@@ -6,12 +6,13 @@
     //     console.log(i);
     // }
 
+
     // for(let i=1; i<=15; i=i+2){
     //     console.log(i);
     // }
 
     // for(let i=2; i<=15; i=i+2){
-    //     console.log(i);n
+    //     console.log(i);
     // }
 
 
@@ -66,15 +67,15 @@
 //     console.log(i, fruits[i]);
 // }
 
-// let fruits = ['apple', 'mango', 'banana', 'lichi', 'orange', 'papaya'];
-// for(let i=fruits.length-1; i>=0; i--){
-//     console.log(i, fruits[i]);
+// let fruits2 = ['apple', 'mango', 'banana', 'lichi', 'orange', 'papaya'];
+// for(let i=fruits2.length-1; i>=0; i--){
+//     console.log(i, fruits2[i]);
 // }
 
 // nested loops with nested array
-// let heroes = [ ['thor', 'ironman', 'caption'], ['superman', 'wonderwoman', 'flash']];
+// let heroes = [ ['thor', 'ironman', 'caption'], ['superman', 'Batman', 'wonder woman']];
 // for(let i=0; i<heroes.length; i++){
-//     console.log(`List #${i}`);
+//     console.log(`List #${i+1}`);
 //     for(let j=0; j<heroes[i].length; j++){
 //         console.log(heroes[i][j]);
 //     }
@@ -103,7 +104,7 @@
 //     console.log(char);
 // }
 
-// let  list = [['raj', 'swami','aaj',],['deepak', 'suraj', 'pavan'],['car','bike', 'caycle']];
+// let  list = [['raj', 'swami','gita',],['deepak', 'suraj', 'pavan'],['car','bike', 'caycle']];
 
 // for(item of list){
 //     for(names of item){
