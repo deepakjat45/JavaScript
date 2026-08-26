@@ -100,7 +100,7 @@
 // p.addEventListener("click", colorSet);
 
 // function colorSet(){
-//     console.dir(this.innerText);
+// //    console.dir(this.innerText);
 //     this.style.backgroundColor = "red";
 // }
 
@@ -159,23 +159,23 @@
 
 
 
-// // more event
-// //chang event and input event  // work only on input, textarea and select
-// let form = document.querySelector("form");
-// form.addEventListener("submit", function (event) {
-//     event.preventDefault();
-// });
+// more event
+//chang event and input event  // work only on input, textarea and select
+let form = document.querySelector("form");
+form.addEventListener("submit", function (event) {
+    event.preventDefault();
+});
 
-// let user = document.querySelector("#user");
+let user = document.querySelector("#user");
 
-// user.addEventListener("change", function () {  // video me samjaya he 
-//     console.log("change evnet value changed");
-//     console.log("change event value is = ", this.value);
-// });
-// user.addEventListener("input", function () { // video me samjaya he 
-//     console.log("input value changed");
-//     console.log("input value is = ", this.value);
-// });
+user.addEventListener("change", function () {  // video me samjaya he 
+    console.log("change evnet value changed");
+    console.log("change event value is = ", this.value);
+});
+user.addEventListener("input", function () { // video me samjaya he 
+    console.log("input value changed");
+    console.log("input value is = ", this.value);
+});
 
 
 // //activity

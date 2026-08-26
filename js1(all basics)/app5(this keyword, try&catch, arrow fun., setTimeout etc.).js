@@ -15,15 +15,15 @@
 //   },
 // };
 // student.getAvg();
-function greet(name) {
-    console.log("Hello " + name);
-}
+// function greet(name) {
+//     console.log("Hello " + name);
+// }
 
-function processUser(callback) {
-    callback("Deepak");
-}
+// function processUser(callback) {
+//     callback("Deepak");
+// }
 
-processUser(greet);
+// processUser(greet);
 
 
 // //try and catch 
@@ -125,17 +125,17 @@ processUser(greet);
 //   clearInterval(id);
 // }, 10000);
 
-// //assignment
+//assignment
 // Q1
-// arr = [2, 6, 12];
-// const arrayAvrage = (arr) => {
-//   let total = 0;
-//   for (let number of arr) {
-//     total += number;
-//   }
-//   return total / arr.length;
-// };
-// console.log(arrayAvrage(arr));
+arr = [2, 6, 12, 5,21, 5];
+const arrayAvrage = (arr) => {
+    let total = 0;
+    for (number of arr) {
+        total += number;
+    }
+    return Math.floor(total / arr.length)
+};
+console.log(arrayAvrage(arr));
 
 // Q2
 // Q3

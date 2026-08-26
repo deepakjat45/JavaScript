@@ -1,11 +1,25 @@
 // more array Methoed
 
 //forEach //for off loop ki tarha hota he
-//map
-//filter
+//map*
+//filter*
 //every
 //some
 //reduce
+
+// let a = [1, 2, 3, 4, 5];
+
+// a.forEach(x => console.log(x));        // prints each
+
+// a.map(x => x * 2);                     // [2,4,6,8,10]
+
+// a.filter(x => x > 2);                  // [3,4,5]
+
+// a.every(x => x > 0);                   // true
+
+// a.some(x => x > 4);                    // true
+
+// a.reduce((sum, x) => sum + x, 0);      // 15
 
 //some question solve
 
