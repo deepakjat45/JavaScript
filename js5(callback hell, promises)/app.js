@@ -67,16 +67,16 @@
 // Promises   <--(an object)
 // Promise ek object hot he jisake andar resolve and reject do function hote he
 //ex--->
-function savetoDb(Data) { // savetoDb fun. jo data leta he 
-  return new Promise((resolve, reject) => { // new promise jo ya to resolve hoga ya reject hoga 
-    let internetSpeed = Math.floor(Math.random() * 10) + 1;
-    if (internetSpeed > 4) {
-      resolve("success: data saved"); // resolve ko call jayega 
-    } else {
-      reject("failure : weak connction"); // reject ko call jayega 
-    }
-  });
-}
+// function savetoDb(Data) { // savetoDb fun. jo data leta he 
+//   return new Promise((resolve, reject) => { // new promise jo ya to resolve hoga ya reject hoga 
+//     let internetSpeed = Math.floor(Math.random() * 10) + 1;
+//     if (internetSpeed > 4) {
+//       resolve("success: data saved"); // resolve ko call jayega 
+//     } else {
+//       reject("failure : weak connction"); // reject ko call jayega 
+//     }
+//   });
+// }
 
 
 // promises object ke andar do method hote he promises.then and promises.catch
@@ -144,8 +144,8 @@ function savetoDb(Data) { // savetoDb fun. jo data leta he
 
 
 // .then() also give a new promise to the next .then()
-//Q
-Promise.resolve(5) 
-  .then((x) => x * 2)  //x value became 5 // after the Operation .then give new promise with x value 10  
-  .then((x) => console.log(x)); 
- 
+
+// //Q
+// Promise.resolve(5)
+//   .then((x) => x * 2)  //x value became 5 // after the Operation .then give new promise with x value 10  
+//   .then((x) => console.log(x));
