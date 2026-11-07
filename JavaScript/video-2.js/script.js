@@ -67,11 +67,10 @@ console.log("p > q", p > q); //true
 console.log("p >== q", p >= q); //true
 
 // Logical Operators
-
-// Logical AND &&
 let n = 3;
 let m = 4;
 
+// Logical AND &&
 console.log("3<4 && 4>3 =", n < m && m > n); //true
 console.log("3<4 && 4<3 =", n < m && m < n); //false
 

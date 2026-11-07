@@ -145,7 +145,9 @@
 
 // .then() also give a new promise to the next .then()
 
-// //Q
+// //Q what will be the output?
 // Promise.resolve(5)
-//   .then((x) => x * 2)  //x value became 5 // after the Operation .then give new promise with x value 10  
+//   .then((x) => x * 2)    
 //   .then((x) => console.log(x));
+
+//x value became 5 // after the Operation .then give new promise with x value 10
